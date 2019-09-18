@@ -1,96 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
     <title>Diseño Interactivo</title>
   </head>
+
   <body>
-    <header>
-      <div class="titulo">
-        <h1>Diseño Interactivo</h1>
+    <section class="hero is-small">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <!-- Donde va el logo -->
+              <div class="navbar-item">
+                <i class="fas fa-palette fa-5x icon-logo"></i>
+              </div>
+
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <span class="navbar-item">
+                  <a
+                    class="button is-rounded is-medium nav-bar-but"
+                    href="./index.html"
+                  >
+                    <span class="icon">
+                      <i class="fas fa-home"></i>
+                    </span>
+                    <span>Pantalla Principal</span>
+                  </a>
+                </span>
+
+                <span class="navbar-item">
+                  <a
+                    class="button is-rounded is-medium nav-bar-but"
+                    href="./chatbot.html"
+                  >
+                    <span class="icon">
+                      <i class="fas fa-robot"></i>
+                    </span>
+                    <span>Chatbot</span>
+                  </a>
+                </span>
+
+                <span class="navbar-item">
+                  <a class="button is-rounded is-medium nav-bar-but" href="#">
+                    <span class="icon">
+                      <i class="fas fa-address-card"></i>
+                    </span>
+                    <span>Nosotros</span>
+                  </a>
+                </span>
+
+                <span class="navbar-item">
+                  <a
+                    class="button is-rounded is-medium nav-bar-but"
+                    href="https://github.com/S4ND1X/Iterative-Boys"
+                  >
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Repositorio</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
-    </header>
 
-    <main>
-      <div class="navbar-container">
-        <div class="navbar-content"></div>
-          <a href="chatbot.html">Chatbot Info</a>
-        </div>
-      <div class="info-integrantes">
-        <h2>Integrantes</h2>
-        <ul>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/jorgesanchezdiaz/"
-              >Jorge Sanchez Díaz</a
-            >
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/carlos-ra%C3%BAl-armenta-p%C3%A9rez-b40b25179/"
-              >Carlos Raul Armenta Perez</a
-            >
-          </li>
-          <li>
-            <a href="#"
-              >Alan Ezequiel Savoy</a
-            >
-          </li>
-        </ul>
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered"></div>
       </div>
-      <div>
-        <h2>Razones para ser equipo</h2>
-        <p>
-          Los tres integrantes que conformamos del equipo tenemos en común que
-          cursamos el mismo semestre y carrera (Ingeniería en Sistemas
-          Computacionales), también hemos trabajo ya sea en pareja o en otros
-          proyectos con anterioridad, esto nos da la ventaja que ya sabemos cómo
-          trabaja cada uno y facilita la manera de dialogar y elaborar, tenemos
-          varios objetivos que van por el mismo rumbo por lo que alcanzar la
-          meta es común y sabemos cómo es una buena forma de trabajar y crecer
-          como equipo para alcanzar lo que esperamos.
-        </p>
+    </section>
+    <!-- Fin del Hero -->
 
-        <h2>Problema planteado</h2>
-        <p>
-          Desde ya hace unos años nuestro planeta ha estado en una batalla
-          constante con los índices de contaminación, hoy por hoy son los
-          niveles más grandes vistos; el mar no ya no tiene la misma calidad que
-          tenía hace unos 15 años, las industrias y las mismas personas se han
-          encargado de tirar desechos atentando con la vida que vive en ese
-          lugar. Es un problema que se debe de atacar, además queremos volver a
-          motivar a las personas a acercarse a un ambiente muchísimo más
-          natural. Por estas razones queremos tocar un tema de regresar a la
-          naturaleza y a las personas a un estado puro.
-        </p>
+    <section class="section main">
+      <div class="container">
+        <h1 class="title">Contexto</h1>
+        <h2 class="subtitle">La contaminación en México es uno de los problemas más grandes, el 70% de los largos, lagunas y acuíferos de México están contaminados.</h2>
+        <h1 class="title">¿Qué es la contaminación del agua?</h1>
+        <h2 class="subtitle">Acumulación de una o más sustancias ajenas al agua que se han recolectado hasta tal magnitud que van a generando una gran cantidad de consecuencias.</h2>
+        <h1 class="title">¿Cuándo ocurre la contaminación en México?</h1>
+        <h2 class="subtitle">Cuando una persona deja cualquier tipo de derecho en el agua de ambiente.</h2>
+        <h1 class="title">¿Cómo podemos hacer un cambio?</h1>
+        <h2 class="subtitle">Limpiando nuestras playas, concientizando a las empresas contaminantes, hablar a más personas a hacer el cambio, no tirar basura a mares, lagunas y lagos.</h2>
+        <h1 class="title">¿Dónde podemos presenciar la contaminación?</h1>
+        <h2 class="subtitle">En presas, en lagunas, en la muerte de la vida natural marina, en los corales, entre otros.</h2>
+        <h1 class="title">¿Quién puede hacer un cambio?</h1>
+        <h2 class="subtitle">Los mismos mexicanos que han estado luchando para limpiar y las personas que no han hecho nada, todos somos agentes de cambio.</h2>
+        <h1 class="title">Solución:</h1>
+        <h2 class="subtitle">Dar a conocer que es lo que está afectando al país actualmente de manera de contaminación y cómo podemos no solo mejorar la vista de un país con una falta de contaminación visual, sino igual con los hechos de hablar de la importancia al menor de edad sobre el problema para que ellos al crecer puedan fomentar el proceso de actividades para un mejor México libre de contaminación del agua.</h2>
 
-        <h4>Preguntas sobre este problema</h4>
-        <ul>
-          <li>
-            ¿Deberíamos de poner imágenes sobre contaminación nacional o del
-            estado?
-          </li>
-          <li>
-            ¿Deberíamos de hacer una sección de preguntas frecuentes del tema?
-          </li>
-          <li>¿Cree que debería llevar algo mas?</li>
-        </ul>
 
-        <h2>Plan de implementación</h2>
-        <p>
-          Se creará un árcade en donde se simulará que nuestro personaje
-          principal que en este caso será la persona que asista al árcade pueda
-          limpiar el mar, el escenario será en un océano en donde el agua que
-          está presente estará en un estado deplorable por la contaminación, por
-          lo que las personas tendrán que pescar a las personas que tengan un
-          texto problema (acciones) y para seguir jugando y limpiar el agua
-          deberán ayudarlo. Cuando se complete todo se dirá que el agua está
-          limpia, por lo tanto, las personas habrían resulto sus problemas y de
-          igual manera se limpiaron de eso.
-        </p>
       </div>
-    </main>
+    </section>
   </body>
 </html>
