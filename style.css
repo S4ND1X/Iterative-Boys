@@ -1,6 +1,7 @@
-html {
+html{
   height: 100%;
 }
+
 
 body{
   background-color: #52ADFF;
@@ -43,10 +44,9 @@ body{
 }
 .main h2{
   font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
 }
-
-
-
 
 
 
